@@ -1,0 +1,44 @@
+.bg-dark
+{
+	background: linear-gradient(45deg,black,darkslategray);
+}
+.bg-success
+{
+	background: linear-gradient(50deg,darkslategray,cyan);
+}
+.bg-tail
+{
+	background: linear-gradient(70deg,black,red);
+}
+.bg-green
+{
+	background: linear-gradient(70deg,black,limegreen);
+}
+.bg-violet
+{
+	background: linear-gradient(70deg,black,blueviolet);
+}
+.bg-table
+{
+	background: linear-gradient(45deg,black,dimgray);
+}
+.bg-primary
+{
+	background: linear-gradient(50deg,black,pink);
+}
+.btn-blue,.bg-blue
+{
+	background: linear-gradient(50deg,black,blue);
+}
+.btn-danger
+{
+	background: linear-gradient(50deg,black,red);
+}
+.p-img
+{
+	height: 300px!important;
+	width: 100%!important;
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 4px;
+}

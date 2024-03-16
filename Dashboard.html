@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="G:\web technology\JSPIDERS_DASHBOARD\Bootstrap\css\bootstrap.css">
+     <link rel="stylesheet" href="G:\web technology\JSPIDERS_DASHBOARD\Bootstrap\css\mdb.css">
+     <link rel="stylesheet" href="G:\web technology\JSPIDERS_DASHBOARD\Bootstrap\fontawesome\fa\css\all.css">
+     <link rel="stylesheet" href="G:\web technology\JSPIDERS_DASHBOARD\Bootstrap\css\style.css">
+</head>
+<body>
+	<nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+		<div class="container">
+			<a href="Dashboard.html" class="navbar-brand text-warning mr-5"><i class="fa fa-snowflake pr-2"></i>Jspiders</a>
+			<button class="navbar-toggler" data-target="#links" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="links">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="Dashboard.html" class="nav-link"><i class="fa fa-chart-bar pr-2 text-muted"></i>Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a href="Tasks.html" class="nav-link"><i class="fa fa-list pr-2 text-muted"></i>Tasks</a>
+					</li>
+					<li class="nav-item">
+						<a href="Categories.html" class="nav-link"><i class="fa fa-sitemap pr-2 text-muted"></i>Categories</a>
+					</li>
+					<li class="nav-item">
+						<a href="Employees.html" class="nav-link"><i class="fa fa-users pr-2 text-muted"></i>Employees</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown">
+						<a href="index.html" class="nav-link" data-toggle="dropdown">
+							<i class="fa fa-sign-in-alt pr-2 text-muted"></i>Gireesh</a>
+						<div class="dropdown-menu">
+							<a href="Profile.html" class="dropdown-item">
+								<i class="fa fa-user-circle pr-2"></i>Profile
+							</a>
+							<a href="settings.html" class="dropdown-item">
+								<i class="fa fa-cogs pr-2"></i>Settings
+							</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="login.html" class="nav-link"><i class="fa fa-sign-out-alt pr-2 text-muted"></i>LogOut</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Main Dashboard Section -->
+         
+        <section class="bg-success">
+        		<div class="row">
+        			<div class="col">
+        				<h1 class="text-white"><i class="fa fa-chart-bar text-muted pr-3"></i>Dashboard</h1>
+        			</div>
+        		</div>
+        </section>
+
+<!-- Dashboard Button Sections -->
+        
+        <section class="bg-light pr-2">
+        	<div class="container-fluid">
+        		<div class="row p-3">
+        			<div class="col-md-4">
+        				<button class="btn bg-tail text-white btn-block" data-target="#task" data-toggle="modal"><i class="fa-solid fa-circle-plus pr-2"></i>ADD TASKS</button>
+        			</div>
+        			<div class="col-md-4">
+        				<button class="btn bg-green text-white btn-block" data-target="#cat" data-toggle="modal"><i class="fa-solid fa-circle-plus pr-2"></i>ADD CATEGORIES</button>
+        			</div>
+        			<div class="col-md-4">
+        				<button class="btn bg-violet text-white btn-block" data-target="#emp" data-toggle="modal"><i class="fa-solid fa-circle-plus pr-2"></i>ADD EMPLOYEES</button>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+
+<!-- Current Tasks -->
+
+
+        
+        <section>
+        	<div class="p-2">
+        		<div class="row">
+        			<div class="col-md-9">
+        				<div class="card">
+        					<div class="card-header bg-dark text-white">
+        						<h1>Current Tasks</h1>
+        					</div>
+        					<div class="card-body bg-light">
+        						<table class="table text-center">
+        							<thead class="bg-table text-white">
+        								<tr>
+        									<th>S.NO</th>
+        									<th>ENAME</th>
+        									<th>EMAIL</th>
+        									<th>TASK</th>
+        									<th>LEVEL</th>
+        									<th>CATEGORY</th>
+        									<th>DETAILS</th>
+        								</tr>
+        							</thead>
+        							<tr>
+        								<td>1.</td>
+        								<td>Gireesh</td>
+        								<td>giri231@gmail.com</td>
+        								<td>Web Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>2.</td>
+        								<td>Anil</td>
+        								<td>anil2231@gmail.com</td>
+        								<td>software Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>3.</td>
+        								<td>Gangadhar</td>
+        								<td>ganga541@gmail.com</td>
+        								<td>API Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>1.</td>
+        								<td>Gireesh</td>
+        								<td>giri231@gmail.com</td>
+        								<td>Web Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>1.</td>
+        								<td>Gireesh</td>
+        								<td>giri231@gmail.com</td>
+        								<td>Web Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>1.</td>
+        								<td>Gireesh</td>
+        								<td>giri231@gmail.com</td>
+        								<td>Web Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        							<tr>
+        								<td>1.</td>
+        								<td>Gireesh</td>
+        								<td>giri231@gmail.com</td>
+        								<td>Web Developer</td>
+        								<td>Fast</td>
+        								<td>Developement</td>
+        								<td>
+        									<a href="#" class="btn btn-sm btn-outline-dark">Details</a>
+        								</td>
+        							</tr>
+        						</table>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-md-3">
+        				<div class="card mt-4">
+        					<div class="card-header bg-primary text-white text-center">
+        						<div class="row align-items-center">
+        							<div class="col">
+        								<i class="fa fa-list fa-4x"></i>
+        							</div>
+        							<div class="col">
+        								<h1 class="display-4">08</h1>
+        								<p>Tasks</p>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="card-footer bg-light text-center">
+        						<a href="Tasks.html">View Tasks<i class="fa-solid fa-circle-arrow-right ml-2"></i></a>
+        					</div>
+        				</div>
+        				<div class="card mt-4">
+        					<div class="card-header bg-success text-white text-center">
+        						<div class="row align-items-center">
+        							<div class="col">
+        								<i class="fa fa-sitemap fa-4x"></i>
+        							</div>
+        							<div class="col">
+        								<h1 class="display-4">08</h1>
+        								<p>Categories</p>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="card-footer bg-light text-center">
+        						<a href="Categories.html">View Categories<i class="fa-solid fa-circle-arrow-right ml-2"></i></a>
+        					</div>
+        				</div>
+        				<div class="card mt-4">
+        					<div class="card-header bg-tail text-white text-center">
+       						<div class="row align-items-center">
+        							<div class="col">
+        								<i class="fa fa-users fa-4x"></i>
+        							</div>
+        							<div class="col">
+        								<h1 class="display-4">08</h1>
+        								<p>Employees</p>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="card-footer bg-light text-center">
+        						<a href="Employees.html">View Employees<i class="fa-solid fa-circle-arrow-right ml-2"></i></a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+
+<!-- Footer -->
+
+
+        <section class="p-3 bg-dark text-white text-center">
+        	<div class="row">
+        		<div class="col">
+        			<h2>COPYRIGHTS:&COPY2023</h2>
+        			<p>All Rights Reserved</p>
+        		</div>
+        	</div>
+        </section>
+
+
+
+
+
+
+<!-- ADD TASKS -->
+
+
+        <div class="modal" id="task">
+        	<div class="modal-dialog modal-lg">
+        		<div class="modal-content animated slideInLeft">
+        			<div class="modal-header bg-tail text-white">
+        				<h2>Add Tasks</h2>
+        				<button class="close" data-dismiss="modal">
+        					<i class="fa fa-times-circle"></i>
+        				</button>
+        			</div>
+        			<div class="modal-body bg-light">
+        				<form>
+        					<label>Task Name</label>
+        					<div class="form-group">
+        						<input type="text" name="" placeholder="" class="form-control">
+        					</div>
+        					<label>Select Domain</label>
+        					<div class="form-group">
+        						<select class="form-control">
+        							<option>Select Your Domain</option>
+        							<option>Data Science</option>
+        							<option>Development</option>
+        							<option>Artificial Intelligence</option>
+        							<option>Testing</option>
+        							<option>Telecalling</option>
+        						</select>
+        					</div>
+        					<div class="form-group">
+        						<label>Start Date</label>
+        						<input type="date" name="" placeholder="" class="form-control">
+        					</div>
+        					<div class="form-group">
+        						<label>End Date</label>
+        						<input type="date" name="" placeholder="" class="form-control">
+        					</div>
+        					<label>Description</label>
+        					<div class="form-group">
+        						<textarea class="form-control" placeholder="Description"></textarea>
+        					</div>
+        				</form>
+        			</div>
+        			<div class="modal-footer">
+        				<div class="mr-auto">
+        					<button class="btn text-white bg-tail mr-auto" type="submit" data-dismiss="modal">Add Task</button>
+        					<button class="btn text-white bg-tail mr-auto" data-dismiss="modal">Close</button>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+
+
+
+<!-- ADD CATEGORY -->
+
+        
+        <div class="modal" id="cat">
+        	<div class="modal-dialog modal-lg">
+        		<div class="modal-content animated slideInLeft">
+        			<div class="modal-header bg-green text-white">
+        				<h2 class="">Add Category</h2>
+        				<button class="close" data-dismiss="modal">
+        					<i class="fa fa-times-circle"></i>
+        				</button>
+        			</div>
+        			<div class="modal-body bg-light">
+        				<form>
+        					<div class="form-group">
+        						<input type="text" name="" placeholder="Enter Category" class="form-control">
+        					</div>
+        					<div class="form-group">
+        						<input type="date" name="" placeholder="" class="form-control">
+        					</div>
+        				</form>
+        			</div>
+        			<div class="modal-footer bg-light">
+        				<div class="mr-auto">
+        					<button class="btn bg-green text-white mr-auto" type="submit" data-dismiss="modal">Add Category</button>
+        			        <button class="btn bg-green text-white mr-auto" data-dismiss="modal">Close</button>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+<!-- Add Employees -->
+
+
+        <div class="modal" id="emp">
+        	<div class="modal-dialog modal-lg">
+        		<div class="modal-content animated slideInLeft">
+        			<div class="modal-header bg-violet text-white">
+        				<h2 class="">Add Employee</h2>
+        				<button data-dismiss="modal" class="close">
+        					<i class="fa fa-times-circle"></i>
+        				</button>
+        			</div>
+        			<div class="modal-body bg-light">
+        				<form>
+        					<div class="form-group">
+        						<input type="text" name="" placeholder="Enter Employee Name" class="form-control">
+        					</div>
+        					<div class="form-group">
+        						<input type="password" name="" placeholder="Enter Password" class="form-control">
+        					</div>
+        					<div class="form-group">
+        						<input type="password" name="" placeholder="Enter Default Password" class="form-control">
+        					</div>
+        				</form>
+        			</div>
+        			<div class="modal-footer bg-light">
+        				<div class="mr-auto">
+        					<button class="btn mr-auto text-white bg-violet mb-auto" type="submit" data-dismiss="modal">Add Employee</button>
+        				<button class="btn bg-violet mr-auto text-white mb-auto" data-dismiss="modal">Close</button>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+<!-- Nav bar -->
+   <script src="bootstrap/js/jquery.js"></script>
+   <script src="bootstrap/js/popper.js"></script>
+   <script src="bootstrap/js/bootstrap.js"></script>
+   <script src="bootstrap/js/mdb.js"></script>
+</body>
+</html>
